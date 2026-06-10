@@ -61,3 +61,8 @@ OB-V0.1
 * Ollama
 * Tavily
 * Brave Search API
+
+## screenshot of home screen
+
+<img width="1918" height="1030" alt="image" src="https://github.com/user-attachments/assets/d014cef1-b4a6-487a-99d7-7d0707d4423f" />
+
