@@ -2,15 +2,19 @@
 
 Ollama Browser is an AI search and chat desktop app built with Python and PyQt6.
 
-It lets you search the web, send results to an AI model, rank sources, detect weak or misleading results, and chat with local or cloud models.
+It combines AI chat, web search, source analysis, and local/cloud AI models into a single desktop application.
 
 ## Features
 
 * AI-powered search
 * Chat mode
 * Follow-up questions
+* Chat saving
+* Chat renaming
+* Chat deletion
 * Local Ollama support
 * Ollama Cloud support
+* OpenAI support
 * Tavily Search support
 * Brave Search support
 * Source ranking
@@ -32,11 +36,29 @@ Extract the ZIP, open the folder, and run:
 ollama-browser.exe
 ```
 
+If the app does not start correctly, run:
+
+```text
+ollama-browser-setup.exe
+```
+
 ## Notes
 
 Keep the `.browsers` folder next to `ollama-browser.exe`.
 
-API keys are not included. Add your Ollama Cloud, Tavily, or Brave keys in Settings.
+API keys are not included.
+
+Supported providers:
+
+* Ollama Local
+* Ollama Cloud
+* OpenAI
+* Tavily Search
+* Brave Search
+
+OpenAI usage may incur charges depending on your account and selected model.
+
+Chats are stored locally as JSON files and can be renamed or deleted from the sidebar.
 
 Local settings are saved in:
 
@@ -46,23 +68,24 @@ Local settings are saved in:
 
 ## Status
 
-This is an early release. Bugs may exist.
-
 Current version:
 
 ```text
-OB-V1.0
+OB-V1.1
 ```
+
+This project is actively being developed. New features, bug fixes, and provider support will continue to be added over time.
 
 ## Built With
 
 * Python
 * PyQt6
 * Ollama
+* OpenAI API
 * Tavily
 * Brave Search API
 
-## screenshot of home screen
+## Screenshot
 
 <img width="1918" height="1030" alt="image" src="https://github.com/user-attachments/assets/d014cef1-b4a6-487a-99d7-7d0707d4423f" />
 
