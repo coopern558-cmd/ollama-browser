@@ -51,7 +51,7 @@ This is an early release. Bugs may exist.
 Current version:
 
 ```text
-OB-V0.1
+OB-V1.0
 ```
 
 ## Built With
