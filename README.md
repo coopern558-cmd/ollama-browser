@@ -21,13 +21,14 @@ It combines AI chat, web search, source analysis, and local/cloud AI models into
 * Bad source detection
 * Dark PyQt6 desktop UI
 * No account required for local use
+* Text file adding
 
 ## Download
 
 Go to the **Releases** page and download:
 
 ```text
-ollama-browser-V1.1-windows-x64.zip
+ollama-browser-V1.2-windows-x64.zip
 ```
 
 Extract the ZIP, open the folder, and run:
@@ -71,7 +72,7 @@ Local settings are saved in:
 Current version:
 
 ```text
-OB-V1.1
+OB-V1.2
 ```
 
 This project is actively being developed. New features, bug fixes, and provider support will continue to be added over time.
