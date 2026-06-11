@@ -27,7 +27,7 @@ It combines AI chat, web search, source analysis, and local/cloud AI models into
 Go to the **Releases** page and download:
 
 ```text
-ollama-browser-windows-x64.zip
+ollama-browser-V1.1-windows-x64.zip
 ```
 
 Extract the ZIP, open the folder, and run:
